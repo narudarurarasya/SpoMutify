@@ -5,7 +5,7 @@ while :
 do
 
 	# Process check to see if Spotify is running...
-	if ps aux | grep -v grep | grep Spotify.app
+	if ps aux | grep -v grep | grep Spotify.app > /dev/null
 	then
 
 	# Specify to run it as an OS applesctipt specifying it ends at EOT
