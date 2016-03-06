@@ -4,7 +4,7 @@ A puny AppleScript (& bash) that mutes Spotify player during ads and gracefully 
 Based on the assumption that the playback time of each ad is no more than a fixed time (default 60 sec.)
 
 # Pre-requisites:
-Works only for Spotify Desktop App of Mac OS X (since it uses Dictionary of the Spotify App - No API permissions, nada...)
+Works only for Spotify Desktop App of Mac OS X (since it uses Dictionary of the Spotify App - No APIs, permissions, nada...)
 
 Make it executable and run it in background. `($ nohup ./SpoMutify.sh >> a.out &)`
 
