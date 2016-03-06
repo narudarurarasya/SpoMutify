@@ -15,8 +15,8 @@ do
 	-- set the avg. duration of an ad (in ms). Default (60000 ms == 60 sec.)
 	set ad_duration to 60000
 
-	-- set the wait interval (in seconds) for constantly checking for ads in loop (Default 5s)
-	set delay_timer to 5
+	-- set the wait interval (in seconds) for constantly checking for ads in loop
+	set delay_timer to 1
 
 	repeat until application "Spotify" is not running
 
