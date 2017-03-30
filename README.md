@@ -12,6 +12,6 @@ Make it executable and run it in background. `($ nohup ./SpoMutify.sh >> a.out &
 1. https://jamfnation.jamfsoftware.com/discussion.html?id=5541
 2. http://broadcast.oreilly.com/2009/05/itunes-dj-applescript-fade-to.html
 
-
 #License
-MIT. See [here](LICENSE.md) for more info. 
+[MIT](LICENSE.md) 
+
