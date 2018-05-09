@@ -6,7 +6,7 @@ Based on the assumption that the playback time of each ad is no more than a fixe
 # Pre-requisites:
 Works only for Spotify Desktop App of Mac OS X (since it uses Dictionary of the Spotify App - No APIs, permissions, nada...)
 
-Make it executable and run it in background. `($ nohup ./SpoMutify.sh >> a.out &)`
+Make it executable and run it in background. `$ sh /path/to/SpoMutify.sh >> /dev/null &`
 
 # References:
 1. https://jamfnation.jamfsoftware.com/discussion.html?id=5541
