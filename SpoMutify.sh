@@ -60,7 +60,7 @@ do
 				-- display notification "Before increasing: " & currentVolume
 				if currentVolume = 0 then
 					-- Increase Volume gracefully
-					repeat with i from currentVolume to (originalVolume + 1) by 1
+					repeat with i from currentVolume to originalVolume by 1
 						set sound volume to i
 						delay 0.02
 					end repeat
